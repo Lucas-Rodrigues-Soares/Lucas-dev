@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Pagina Inicial</title>
+</head>
+<body>
+  
+      <img class="logo" src="logo.png" width="100px" height="88px">
+  
+  <nav class="links">
+    
+    <a  class="link ativo" href="#">Inicio</a>
+    <a  class="link" href="https://site-de-portfolio-sobre-mim-lucasr.netlify.app/">Sobre</a>
+    <a class="link" href="#">Projetos</a>
+    <a  class="link" href="#">Habilidades</a>
+    <a  class="link" href="#">Contato</a>
+    
+    
+  </nav>
+  
+  <!--------- Conteúdo escrito ----------------></!--------->
+  
+  <div class="conteudo">
+    
+    <h2>Olá eu sou <span>Lucas</span></h2> <br>
+    
+    <h1>Transformo ideias <br> em experiências <span>digitais</span></h1>
+    
+    <p>Desenvolvedor e designer apaixonado por criar soluções <br> modernas, funcionais e que fazem a diferença.</p>
+    
+    <b>
+      <a href="#" class="bti">Ver Projetos
+      <img class="inha" width="24" height="24" src="https://img.icons8.com/material-rounded/24/1A1A1A/long-arrow-right.png" alt="long-arrow-right"/>
+      </a>
+      
+     <a href="https://site-de-portfolio-sobre-mim-lucasr.netlify.app/" class="btl">Sobre mim
+    <img class="pessoa" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/user--v1.png" alt="user--v1"/>
+      </a>
+    </b>
+      
+    </div>
+    
+    
+    <!------------------ Descrições ----------------------------------></!------------------>
+    
+  
+    
+  
+    
+    <div class="sobre">
+      
+      <h2 class="mim">SOBRE MIM</h2>
+      
+      <h1 class="eu">Criatividade.Código.Propósito.</h1>
+      
+      
+      </div>
+  
+    <div class="fim">
+      
+      <img class="dev" width="60" height="60" src="https://img.icons8.com/ios/50/FFFFFF/source-code.png" alt="source-code"/>
+      
+      
+      <b> <h3>Desenvolvimento</h3> </b> </br>
+      
+      <p class="descrição">Construo aplicações web modernas <br> com foco em performace e <br> experiência do usuário.</p>
+       
+     
+      
+    </div>
+    <div class="fim">
+      
+      <img class="dev" width="60" height="60" src="https://img.icons8.com/ios/50/FFFFFF/paint-palette.png" alt="paint-palette"/>
+      
+      <b> <h3>Design</h3> </b> </br>
+      
+      <p class="descrição">Crio interfaces intuitivas e <br> atraentes e conectam marcas  <br> e pessoas.</p>
+       
+      
+    </div>
+   
+    <div class="fim">
+      
+     <img class="dev" width="60" height="60" src="https://img.icons8.com/ios/50/FFFFFF/rocket--v1.png" alt="rocket--v1"/>
+      
+      <b> <h3>Soluções</h3> </b> </br>
+      
+      <p class="descrição">Transformo problemas em soluções <br> digitais escálaveis e eficientes.</p>
+       
+      
+    </div>
+    
+      <div class="fim">
+      
+    <img class="dev" width="60" height="60" src="https://img.icons8.com/ios/50/FFFFFF/accuracy--v1.png" alt="accuracy--v1"/>
+      
+      <b> <h3>Foco em resultados</h3> </b> </br>
+      
+      <p class="descrição">Acredito em entregas de valor, <br> com propósito e impacto real.</p>
+       
+    </div>
+<div class="final">
+  
+<a href="#" class="projetos">Conheça meus projetos  
+
+  <img class="seta" width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/long-arrow-right.png" alt="long-arrow-right"/>
+</a>
+  
+</div>
+
+<!-------------Icones de logo------------------></!-------------Icones>
+
+<div>
+      
+      <a href="https://www.linkedin.com/in/lucas-rodrigues-4724483a7?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+    <img class="lin"  width="70" height="70" src="https://img.icons8.com/ios/50/FFFFFF/linkedin.png" alt="linkedin"/>
+      </a>
+      <a href="https://www.instagram.com/Lucasr.ph">
+    <img class="icon" width="70" height="70" src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+      </a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lucasmitobox@gmail.com">
+    <img class="icon" width="70" height="70" src="https://img.icons8.com/ios/50/FFFFFF/gmail--v1.png" alt="gmail--v1"/>
+      </a>
+      <a href="#">
+      <img class="icon" width="70" height="70" src="https://img.icons8.com/ios/50/FFFFFF/github--v1.png" alt="github--v1"/>
+      </a>
+      
+  </div>
+
+
+
+
+
+
+
+<script>
+ 
+const links = document.querySelectorAll(".link")
+
+links.forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        links.forEach(item => {
+            item.classList.remove("ativo")
+        })
+
+        link.classList.add("ativo")
+
+    })
+
+})
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
