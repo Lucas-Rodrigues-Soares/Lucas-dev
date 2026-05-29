@@ -2,4 +2,4 @@
 
 Meu primeiro site de portfólio.
 
-![Print do meu site](Screenshot_20260528_222802_Opera.jpg)
+<img src="Screenshot_20260528_222802_Opera.jpg" width="370" height"400">
