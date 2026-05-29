@@ -2,5 +2,5 @@
 
 Meu primeiro site de portfólio.
 
-<img src="Screenshot_20260528_222802_Opera.jpg" width="380" height="470">
+<img src="Screenshot_20260528_222802_Opera.jpg" width="580" height="670">
 
